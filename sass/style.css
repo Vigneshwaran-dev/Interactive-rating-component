@@ -11,4 +11,35 @@ body {
   background-color: #121417;
   font-family: 'Overpass', sans-serif;
 }
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #252d37;
+  height: 60vh;
+  width: 25vw;
+  border-radius: 5vh;
+}
+
+.box .star_box {
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+  border-radius: 50%;
+  height: 5vh;
+  width: 5vh;
+  background-color: #7c8798;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
