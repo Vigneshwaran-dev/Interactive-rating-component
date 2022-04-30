@@ -22,26 +22,31 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: $Dark-Blue;
+    background-color: #1F2630;
     height: 60vh;
     width: 25vw;
     border-radius: 5vh;
 
     .star_box{
         position: absolute;
-        top: 2vh;
-        left: 2vw;
+        top: 4.5vh;
+        left: 4.5vh;
         border-radius: 50%;
         height: 5vh;
         width: 5vh;
-        background-color: $Shadow;
+        background-color: #262F38;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .title{
         position: absolute;
-        top: 15vh;
-        left: 5vh;
+        top: 12vh;
+        left: 4.5vh;
+    }
+    .subtitle{
+        position: absolute;
+        top: 20vh;
+        left: 4.5vh;
     }
 }
