@@ -31,7 +31,7 @@ body {
   border-radius: 50%;
   height: 5vh;
   width: 5vh;
-  background-color: #7c8798;
+  background-color: #262E38;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,5 +41,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.box .title {
+  position: absolute;
+  top: 15vh;
+  left: 5vh;
 }
 /*# sourceMappingURL=style.css.map */
